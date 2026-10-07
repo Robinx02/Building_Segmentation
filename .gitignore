@@ -1,0 +1,20 @@
+#big data size
+data/raw/
+data/processed/
+outputs/checkpoints/
+outputs/predictions/
+
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+
+.ipynb_checkpoints/
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
