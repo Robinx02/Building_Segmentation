@@ -1,6 +1,9 @@
+#seperate loss file to fetech from
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+
 
 class DiceLoss(nn.Module):
     def __init__(self, smooth = 1.0):
