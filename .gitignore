@@ -2,7 +2,9 @@
 data/raw/
 data/processed/
 outputs/checkpoints/
-outputs/predictions/
+outputs/predictions
+
+baseline_nbs/data
 
 __pycache__/
 *.pyc
@@ -18,3 +20,15 @@ dist/
 
 .DS_Store
 Thumbs.db
+*.pth
+*.pt
+*.ckpt
+outputs/checkpoints/
+baseline_nbs/outputs/models/
+
+*.pth
+*.pt
+*.ckpt
+*.pkl
+baseline_nbs/outputs/models/
+outputs/checkpoints/
