@@ -209,7 +209,7 @@ def main():
 
     split = split_groups(groups, args.n_val, args.n_test, args.seed)
 
-    # ---- sanity checks: disjoint splits, nothing lost, no group straddles two splits
+    # sanity checks: disjoint splits, nothing lost, no group straddles two splits
     allf = split["train"] + split["val"] + split["test"]
     assert len(allf) == len(set(allf)) == len(names), "files lost or duplicated"
     gid_of = {n: dsu.find(i) for i, n in enumerate(names)}

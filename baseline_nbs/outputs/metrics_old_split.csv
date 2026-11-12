@@ -1,0 +1,5 @@
+Method,IoU,Dice,Precision,Recall,Boundary F1
+random_forest,0.2467,0.3876,0.3551,0.4348,0.1480
+deeplabv3,0.5777,0.7283,0.8082,0.6733,0.2044
+resnet18,0.2590,0.4032,0.6147,0.3035,0.0893
+decision_tree,0.2339,0.3751,0.3959,0.3616,0.1247
